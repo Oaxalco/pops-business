@@ -65,12 +65,12 @@ body{
     color: var(--primary-2);
 }
 
-.footer{
+.three{
     padding: 25px 0;
     margin: 0 -15px;
 }
 
-.footer-wrapper{
+.three-wrapper{
     padding: 0 15px;
     box-sizing: border-box;
     float: left;
@@ -78,7 +78,7 @@ body{
     position: relative;
 }
 
-.footer-title{
+.three-title{
     font-size: 27px;
     padding-bottom: 20px;
     margin-bottom: 20px;
