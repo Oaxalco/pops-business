@@ -7,7 +7,8 @@
 
     --neutral-1: #777575;
     --neutral-2:#444141;
-    --neutral-3:#cecdcd;
+    --neutral-3:#c2c2c2;
+    --neutral-4:#eeeeee;
 
     --accent-1:#3176d0;
     --accent-2:#1044e2;
@@ -19,7 +20,7 @@
 
 body{
     margin: 0;
-    background-color: var(--neutral-3);
+    background-color: var(--neutral-4);
 }
 
 .navbar{
@@ -65,9 +66,23 @@ body{
     color: var(--primary-2);
 }
 
+.service{
+    margin: 0;
+    padding: auto;
+    background-color: var();
+}
+
+.service-title{
+    text-align: center;
+}
+
+
 .three{
     padding: 25px 0;
     margin: 0 -15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--neutral-3);
 }
 
 .three-wrapper{
