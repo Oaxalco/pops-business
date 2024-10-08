@@ -69,10 +69,18 @@ body{
 .service{
     margin: 0;
     padding: auto;
-    background-color: var();
 }
 
 .service-title{
+    text-align: center;
+}
+
+.testimonals{
+    margin: 0;
+    padding: auto;
+}
+
+.testimonal-title{
     text-align: center;
 }
 
