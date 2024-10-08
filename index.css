@@ -84,6 +84,32 @@ body{
     text-align: center;
 }
 
+.testimonal-form{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonal{
+    font-size: 16px;
+    margin: 1.7em;
+    width: 100%;
+    max-width: fit-content;
+    border-radius: 8px;
+}
+
+.btn{
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 600;
+    background-color: var(--delta-2);
+    color: var(--white);
+}
+
+.btn:hover{
+    background-color: var(--delta-1);
+}
+
 
 .three{
     padding: 25px 0;
