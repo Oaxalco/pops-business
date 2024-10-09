@@ -98,7 +98,7 @@ main{
 }
 
 .testimonal-form{
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
@@ -108,6 +108,9 @@ main{
     width: 100%;
     max-width: fit-content;
     border-radius: 8px;
+    height: 160px;
+    width: 100%;
+
 }
 
 .btn{
@@ -117,6 +120,8 @@ main{
     font-weight: 600;
     background-color: var(--delta-2);
     color: var(--white);
+    height:fit-content;
+    padding: 8px 15px;
 }
 
 .btn:hover{
