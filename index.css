@@ -9,6 +9,7 @@
     --neutral-2:#444141;
     --neutral-3:#c2c2c2;
     --neutral-4:#eeeeee;
+    --neutral-5:#404040;
 
     --accent-1:#3176d0;
     --accent-2:#1044e2;
@@ -70,6 +71,16 @@ a{
     color: var(--primary-2);
 }
 
+.header{
+    margin: 0;
+}
+
+.header__description{
+    height: 80px;
+    width: 500px;
+    margin: 10px;
+}
+
 main{
     margin-top: 40px;
 }
@@ -77,8 +88,11 @@ main{
 .service{
     margin: 0;
     padding: auto;
-    background-color: var(--black);
+    background-color: var(--neutral-5);
     color: var(--white);
+    background-image: url(./images/street\ shop.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .service-title{
