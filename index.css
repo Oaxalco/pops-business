@@ -73,6 +73,9 @@ a{
 
 .header{
     margin: 0;
+    background-image: url(./images/shop.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .header__description{
@@ -90,9 +93,6 @@ main{
     padding: auto;
     background-color: var(--neutral-5);
     color: var(--white);
-    background-image: url(./images/street\ shop.png);
-    background-size: cover;
-    background-position: center;
 }
 
 .service-title{
