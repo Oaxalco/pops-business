@@ -183,3 +183,17 @@ main{
     border-bottom: 1px solid #acb8bc;
     text-transform: uppercase;
 }
+
+.footer{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-top: 1px solid #2d2d2d;
+}
+
+
+.footer-image{
+    height: 20px;
+}
