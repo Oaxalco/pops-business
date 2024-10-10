@@ -101,7 +101,7 @@ main{
     color: var(--white);
 }
 
-.service-wrapper{
+.wrapper{
     height: 40vh;
 }
 
@@ -191,6 +191,7 @@ main{
     justify-content: space-between;
     flex-direction: row;
     border-top: 1px solid #2d2d2d;
+    padding: 0 30px;
 }
 
 
