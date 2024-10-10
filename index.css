@@ -76,6 +76,12 @@ a{
     background-image: url(./images/shop.jpg);
     background-size: cover;
     background-position: center;
+    height: 60vh;
+}
+
+.header__title{
+    text-align: center;
+    font-size: 50px;
 }
 
 .header__description{
@@ -95,8 +101,14 @@ main{
     color: var(--white);
 }
 
+.service-wrapper{
+    height: 40vh;
+}
+
 .service-title{
     text-align: center;
+    margin-top: 0;
+    padding: 20px;
 }
 
 .service-lists{
