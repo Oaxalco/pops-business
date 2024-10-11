@@ -117,6 +117,8 @@ a{
 .testimonals{
     margin: 0;
     padding: auto;
+    width: 405px;
+    height: 139px;
 }
 
 .testimonal-title{
@@ -126,14 +128,13 @@ a{
 }
 
 .testimonal-form{
-    display: grid;
+    display: flex;
     justify-content: center;
 }
 
 .testimonal{
     font-size: 16px;
     margin: 1.7em;
-    max-width: fit-content;
     border-radius: 8px;
     height: 160px;
     width: 100%;
