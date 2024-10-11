@@ -90,13 +90,10 @@ a{
     margin: 10px;
 }
 
-main{
-    margin-top: 40px;
-}
 
 .service{
     margin: 0;
-    padding: auto;
+    padding: 0;
     background-color: var(--neutral-5);
     color: var(--white);
 }
@@ -108,7 +105,7 @@ main{
 .service-title{
     text-align: center;
     margin-top: 0;
-    padding: 20px;
+    padding: 30px 0 20px;
 }
 
 .service-lists{
@@ -124,6 +121,8 @@ main{
 
 .testimonal-title{
     text-align: center;
+    margin: 0;
+    padding: 30px 0 2px;
 }
 
 .testimonal-form{
@@ -134,7 +133,6 @@ main{
 .testimonal{
     font-size: 16px;
     margin: 1.7em;
-    width: 100%;
     max-width: fit-content;
     border-radius: 8px;
     height: 160px;
@@ -164,6 +162,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     background-color: var(--neutral-3);
+    height: 20vh;
 }
 
 .three-wrapper{
