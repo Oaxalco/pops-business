@@ -73,9 +73,7 @@ a{
 
 .header{
     margin: 0;
-    background-image: url(./images/shop.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: var(--primary-2);
     height: 60vh;
     color: var(--white);
 }
@@ -117,6 +115,16 @@ a{
     margin-left: 10pc;
     text-decoration: underline;
     height: 100%;
+}
+
+.photos{
+    background-color: var(--accent-1);
+
+}
+
+.image{
+    height: 50px;
+    width: 50px;
 }
 
 .testimonals{
