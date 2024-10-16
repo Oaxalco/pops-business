@@ -134,6 +134,7 @@ a{
 .wrapper-photos{
     position: relative;
     max-width: 800px;
+    padding: 40px 0;
 }
 
 .slide{
@@ -191,7 +192,7 @@ a{
     padding: 30px 0 2px;
 }
 
-testimonal-form{
+form{
     display: flex;
     justify-content: center;
 }
@@ -201,7 +202,7 @@ testimonal-form{
     margin: 1.7em;
     border-radius: 8px;
     height: 160px;
-    width: 100%;
+    width: 80vh;
 
 }
 
