@@ -99,9 +99,6 @@ a{
     padding: 0;
     background-color: var(--neutral-5);
     color: var(--white);
-}
-
-.wrapper{
     height: 40vh;
 }
 
