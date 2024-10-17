@@ -57,6 +57,10 @@ a{
     display: inline-block;
 }
 
+.nav-list{
+    display: flex;
+}
+
 .nav-item{
     text-decoration: none;
     font-weight: bold;
@@ -141,8 +145,8 @@ a{
 }
 
 .slide img{
-    height: 600px;
-    width: 900px;
+    height: 554px;
+    width: 842px;
     border-radius: 10px;
 }
 
@@ -223,7 +227,7 @@ form{
 
 .three{
     padding: 50px 0 100px;
-    margin: 0 -15px;
+    margin: 0;
     display: flex;
     justify-content: space-evenly;
     background-color: var(--neutral-3);
@@ -231,11 +235,11 @@ form{
 }
 
 .three-wrapper{
-    width: 33.33%;
     padding: 0 15px;
-    box-sizing: border-box;
     float: left;
     position: relative;
+    gap: 90px;
+    display: contents;
 }
 
 
