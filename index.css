@@ -79,7 +79,7 @@ a{
 .header{
     margin: 0;
     background-color: var(--primary-2);
-    height: 60vh;
+    height: 100vh;
     color: var(--white);
     background-position: center;
     background-size: cover;
@@ -88,12 +88,20 @@ a{
 .header__title{
     text-align: center;
     font-size: 50px;
+    max-width: 728px;
+    margin: 183px 0 0;
+    line-height: 72px;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .header__description{
     height: 80px;
-    width: 500px;
-    margin: 10px;
+    max-width: 683px;
+    margin: 28px 0 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
 }
 
 
