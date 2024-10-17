@@ -69,7 +69,7 @@ a{
 
 .nav-item:hover{
     text-decoration: none;
-    color: var(--primary-2);
+    color: var(--black);
 }
 
 .header{
@@ -238,9 +238,6 @@ form{
     position: relative;
 }
 
-.hour{
-
-}
 
 .three-title{
     font-size: 27px;
